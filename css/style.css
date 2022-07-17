@@ -1,0 +1,262 @@
+*{
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+body{
+  background-color: #202124;
+}
+
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navigation CSS */
+
+.navContent{
+  float: right;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navContent > * {
+  margin-right: 1rem;
+}
+
+.navContent a{
+  text-decoration-color: #202124;
+  color: white;
+}
+
+.icon:hover{
+  border-radius: 50%;
+  background-color: #3b3939;
+}
+
+.text:hover{
+  text-decoration-color: white;
+}
+
+.profilePic{
+  border-radius: 50%;
+}
+
+/* Logo CSS */
+
+.logo{
+  min-height: 92px;
+  max-height: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100vh - 560px);
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.logoin{
+  height: 100%;
+  margin-top: auto;
+  max-height: 92px;
+  position: relative;
+}
+
+.logoImg{
+  object-fit: contain;
+  object-position: center bottom;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Search Area CSS */
+
+.searchContainer{
+  padding: 20px;
+  max-height: 160px;
+}
+
+.search{
+  margin: 0 auto;
+  width: 640px;
+  max-width: 584px;
+}
+
+.searchArea{
+  display: flex;
+  align-items: center;
+  border: 1px solid #5f6368;
+  border-radius: 24px;
+  height: 44px;
+  width: 640px;
+  max-width: 584px;
+  background-color: #202124;
+}
+
+.ss {
+  margin: 5px 8px 0 14px; 
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.searchIcon{
+  padding-right: 13px;
+}
+
+.input{
+  background-color: transparent;
+  color: #e8eaed;
+  border: none;
+  outline: none;
+  width: 447px;
+  height: 34px;
+  margin-top: -5px;
+  font-size: 16px;
+  word-break: break-word;
+}
+
+.searchArea svg{
+  width: 20px;
+  height: 20px;
+  color: #9aa0a6;
+}
+
+.searchArea a{
+  width: 24px;
+}
+
+.searchArea span{
+  fill: currentColor;
+}
+
+.searchAreaButton{
+  height: 70px;
+  padding-top: 18px;
+  text-align: center;
+}
+
+.searchAreaButton button{
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  font-size: 14px;
+  color:  #e8eaed;
+  height: 36px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.searchAreaButton button:hover{
+  border-color: #5f6368;
+}
+
+.rightButtons{
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex: 0 0 auto;
+}
+
+.b1, .b2{
+  width: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.b1, .b2> span{
+  height: 24px;
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.b2image{
+  height: 24px;
+}
+
+/* Language Footer CSS */
+
+
+.language{
+  text-align: center;
+  flex: 1 0;
+}
+
+.language div{
+  color: #bdc1c6;
+}
+
+.language a{
+  color: #8ab4f8;
+  text-decoration: none;
+}
+
+.language a:hover{
+  text-decoration: underline;
+}
+
+.footer{
+  background-color: #171717;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.country{
+  padding: 15px 30px;
+  border-bottom: 1px solid #3c4043;
+  font-size: 15px;
+  color: #9aa0a6;
+}
+
+.footerContent{
+  padding: 0 20px;
+}
+
+.footerBut{
+  color: #999da2;
+  text-decoration: none;
+  padding: 15px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.footerBut:hover{
+  text-decoration: underline;
+}
+
+.foot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.one{
+  order:1;
+  min-width: 30%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.two{
+  order:2;
+  align-items: center;
+}
+
+.leaf{
+  height: 14px;
+}
+
+.three{
+  order:3;
+  min-width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
